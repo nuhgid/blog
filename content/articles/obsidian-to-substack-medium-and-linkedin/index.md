@@ -17,50 +17,54 @@ related_articles:
 folder_index: "[[Tasks_articles_nuhgid_writing_index]]"
 voice_reference: digital-brain/Context/Personal/nuhgid_branding/work_account_nuhgid.md
 ---
-# I hated repurposing my content to different platforms. Now all I need is to copy and paste them
 
-The part I dreaded the most when writing articles is not the writing itself, but what comes after that:
+# I wasted 10 minutes per article when repurposing to Substack and LinkedIn. Now it takes one command.
 
-Copying and pasting images from the article into each platform's editor.
+The part I dreaded the most when writing articles is not the writing itself, but what comes right after that:
+
+Repurposing my long-form articles to different platforms (Substack, LinkedIn, Medium) because I had to manually copy and paste every image from the article into each platform's editor.
+
+This manual workflow takes up at least 3-5 minutes of mindless copying and pasting, depending on how many images are in my articles.
 
 I'd repurpose the same long-form article across every platform I'm on, and this manual work was extremely draining for me.
 
-My past workflow involved these steps:
+I used these repetitive steps to complete the task:
 
 - Write the article on Obsidian (the writing hub for my Digital Brain)
 - Import the Obsidian Markdown file to Notion (it formats everything well)
 - Copy the entire Notion page to Substack, Medium, and LinkedIn
 - Copy and paste every single image file into each editor
 
-/ADD SS
+When I copied the images directly from the Notion page, it gave this error that the image was not found.
 
-This took me at least 10 minutes to complete, which was all wasted time because it was so repetitive.
+![[Pasted image 20260219110308.png]]
 
-*Especially if the article had multiple images, and I had to copy and paste each image multiple times on all editors.*
+So instead, I had to manually copy each and every image I had in my article, wasting precious time on this task.
 
 I thought it'd never be possible to get rid of this manual work, since each platform has its own formatting styles.
 
 But everything changed when I saw this post, and I finally figured out how to save those extra minutes with a simple CMD + A, CMD + C, and CMD + V across all 3 platforms:
 
+---
+
 ## How I finally found a solution
 
-While looking through LinkedIn, I found Artem's article about 
+While looking through LinkedIn and Substack, I found @ArtemXTech's [article](https://substack.com/@artemxtech/p-185905853) about how he formatted his articles directly from Obsidian to Substack.
 
-/UPDATE TAG AND XXX
+![[Pasted image 20260219111311.png]]
 
-
-
-https://www.linkedin.com/feed/update/urn:li:activity:7420898606074884096/?originTrackingId=Xzr1C7JhSOcgdH1TpRUEUg%3D%3D
-
-https://substack.com/@artemxtech/p-185905853
+He mentioned it again in this [post](https://www.linkedin.com/feed/update/urn:li:activity:7420898606074884096/?originTrackingId=Xzr1C7JhSOcgdH1TpRUEUg%3D%3D) where he built an automation of that deploys his article images into his blog, and then extracts the HTML that can be copied directly to Substack (with all the images intact).
 
 This was something I would have never thought of by myself. Maybe if I had given Claude the problem, it would have solved it for me.
 
-But I now have a clear roadmap of what worked for others, and it's time for me to emulate it for myself.
+**But I now have a clear roadmap of what worked for others, and it's time for me to emulate it for myself.**
 
-I pasted what Artem said about converting to HTML, and shared [his blog](artemxtech.github.io) to get Claude to create something similar for me.
+So these were the context given to Claude to help me create something similar for me:
 
-Claude created this guide for me:
+- What he said about converting to HTML
+- The link to his [blog](https://artemxtech.github.io) which is likely how he converts his posts to HTML (thanks for making this public)
+
+With this context, Claude gave me a roadmap on how I could create it for myself:
 
 1. Create the blog with GitHub Pages 
 2. Importing the pages from my Digital Brain to the blog repo
@@ -69,7 +73,7 @@ Claude created this guide for me:
 
 And here's how you can do the same too:
 
-
+---
 ## Creating a blog with GitHub Pages
 
 Claude analysed Artem's blog and found that it uses @jzhao's [Quartz v4 site generator](https://github.com/jackyzha0/quartz) to publish the pages.
@@ -87,10 +91,10 @@ I did face some errors and had to troubleshoot the deployment, but Claude helped
 
 ![[Pasted image 20260218221400.png]]
 
-After you've installed it, you'll get a simple blog website that's fully customisable (here's mine).
+After you've installed it, you'll get a simple blog website that's fully customisable ([here's mine](https://nuhgid.github.io/blog/)).
 
-/ADD SS AND LINK
-to UPDATE the style of the blog
+![[Pasted image 20260219133539.png]]
+
 
 ---
 
@@ -109,9 +113,9 @@ All of the images and markdown files of every article I publish will be inside t
 
 So I asked Claude if it was possible to organise it in this way, and the task was done for me.
 
-/UPDATE CONVO about the organisation
+![[Pasted image 20260219113047.png]]
 
-I'm now able to invoke the `article-to-blog` Skill once I finished writing, and it'll automatically commit and push the Markdown and image files into my blog repo.
+I'm now able to invoke the `article-to-blog` Skill once I finish writing, and it'll automatically commit and push the Markdown and image files into my blog repo.
 
 One interesting roadblock I faced was trying to publish my Google API article to the blog, but it failed because it thought I was sharing my OAuth credentials inside (when they were just placeholders).
 
@@ -121,7 +125,7 @@ Once the files have been transferred, it'll take a while for the page to reflect
 
 All of my articles are under the `articles` folder, and this includes all of the images that I added with a nice UI.
 
-
+---
 ## Generating the HTML from the article
 
 I created another `article-to-html` skill that generates a local HTML file from my published blog page that I can copy directly into any of these editors.
@@ -137,13 +141,15 @@ So I had to train and let Claude know how I want the formatting to be, before it
 
 This took a while as I looked for all the edge cases and asked Claude to update the HTML formatting accordingly.
 
-On hindsight, I should have used the Skill from XXX to understand Obsidian's Markdown format and use that to convert my file into an HTML instead.
+On hindsight, I should have used the Skill from @kepano to understand Obsidian's Markdown format and use that to convert my file into an HTML instead.
 
-/UPDATE OBSIDIAN CREATOR SKILLS + LINK
+https://x.com/kepano/status/2022342963259695311
 
 The end product looks something like this, where I could copy the entire HTML file and then paste it directly to any of the editors.
 
 ![[Pasted image 20260219091941.png]]
+
+---
 
 ## Pasting the HTML into the Substack, LinkedIn, and Medium editors
 
@@ -153,9 +159,12 @@ In the past, I wasted many minutes looking for the right image file, and then pa
 
 But now, all I need is to paste the HTML directly, and all of the images get uploaded in bulk.
 
-/ADD SS
+
+![[Pasted image 20260219113504.png]]
 
 This was the task that I dreaded the most because of how manual the actions are, and I'm finally glad to have found a solution that saves me so much time.
+
+---
 
 ## There will always be a solution
 
@@ -177,5 +186,5 @@ If you'd like to use the same workflow, access the Skills I'm using daily here.
 
 This adds one new capability to my Digital Brain, which now runs 85% of my life through a combination of Obsidian and Claude Code that remembers all the context I gave it inside Markdown files.
 
-*I shared how I built one in this article here.*
+*I shared how I built one in this article [here](https://nuhgid.substack.com/p/day-1-build-your-digital-brain-in).*
 
