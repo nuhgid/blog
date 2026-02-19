@@ -7,7 +7,7 @@ outlining_started: 2026-02-11
 writing_started: 2026-02-11
 completed_date: 2026-02-13
 archived_date: 2026-02-16
-published: Yes
+published: true
 published_date: 2026-02-13
 category: Systems_and_Automation
 tags:
@@ -33,7 +33,7 @@ linkedin_url: https://www.linkedin.com/pulse/claude-automates-85-my-life-how-i-b
 substack_url: https://nuhgid.substack.com/p/claude-automates-85-of-my-life-how
 medium_url:
 ---
-![[Pasted image 20260211183808.png]]
+![[Pasted-image 20260211183808.png]]
 
 
 Claude Code runs 85% of my life (how I built a Digital Brain)
@@ -63,7 +63,7 @@ In the past 8 days, I've built out a Digital Brain that runs almost every aspect
 - Extracts all of my expenses from my credit card statements to build out a comprehensive expense tracker
 - Uses 40+ Claude skills to automate key functions and roles from above
 
-![[Pasted image 20260211121343.png]]
+![[Pasted-image 20260211121343.png]]
 
 I'm still in the process of learning and refining my system, but here's how you can build one system for yourself (even with zero coding experience like me):
 
@@ -109,7 +109,7 @@ Through the videos in this [course](https://letters.thedankoe.com/p/mini-course-
 
 Kortex (his software) allowed him to tag different documents that included and then reference them to build out an exceptional prompt that can consistently generate good tweets or even newsletters.
 
-![[Pasted image 20260212110227.png]]
+![[Pasted-image 20260212110227.png]]
 
 *Because of the context he shared, it gives the LLM direction on what the ideal output should be, instead of coming up with an average output that comes from a one-liner prompt.*
 
@@ -117,7 +117,7 @@ His system followed a Notion-style structure where you can tag different files i
 
 I did try this with various markdown files as the context in Gemini, but it was still troublesome having to find every file to use.
 
-![[Pasted image 20260212105407.png]]
+![[Pasted-image 20260212105407.png]]
 
 But what if we could create a system that knows exactly what action you want at any time, because it knows the context of how you wanted it to be built?
 
@@ -168,7 +168,7 @@ He shared how he could generate a PRD for a certain idea, and Claude provided a 
 - Business context
 - Example PRDs
 
-![[Pasted image 20260212112427.png]]
+![[Pasted-image 20260212112427.png]]
 
 These posts completely changed my perspective on how I could use AI and even Claude Code as a non-coder, and here's how I applied them into building out my own system:
 
@@ -182,7 +182,7 @@ LLMs don't read text files or blog posts the same way as we do. Because of the s
 
 If you search for LLM-friendly documentation like the ones on Mintlify, you will see the 'Copy as Markdown' option that lets you paste it directly into an LLM for it to understand the context better.
 
-![[Pasted image 20260211174238.png]]
+![[Pasted-image 20260211174238.png]]
 
 So to create a Digital Brain system that uses Claude Code, you have to be comfortable writing in Markdown.
 
@@ -200,7 +200,7 @@ Now, my Obsidian file is full of different .md files that give context to the AI
 
 The main function I use Obsidian for is writing, just like this article. I like the split view, which allows me to put the outline (which I generated with my Digital Brain) alongside my draft, so I can refer to it at any time when I'm stuck.
 
-![[Pasted image 20260211143745.png]]
+![[Pasted-image 20260211143745.png]]
 
 One reason why I liked Notion was the ability to easily sync my progress between my desktop and phone (since I take a while to travel to work).
 
@@ -222,7 +222,7 @@ Using GitHub as the 'main source of truth'.
 
 Obsidian has a GitHub plugin where I could sync my files directly with the GitHub repo.
 
-![[Pasted image 20260211144656.png]]
+![[Pasted-image 20260211144656.png]]
 
 
 
@@ -232,7 +232,7 @@ Please remember to set this as private, or all of your data will be accessible t
 
 That way, my Obsidian vault will reflect the exact same structure as my GitHub repo.
 
-![[Pasted image 20260211174339.png]]
+![[Pasted-image 20260211174339.png]]
 
 And the reason why I'm doing this is that I can't use Claude Code on Obsidian (for now):
 
@@ -245,11 +245,11 @@ But once I was encouraged to run Claude Code on my Mac for other vibe coding pro
 
 VS Code lets you run Claude directly inside with the extension.
 
-![[Pasted image 20260211144018.png]]
+![[Pasted-image 20260211144018.png]]
 
 As a non-coder, I'm using the chatbox but it's perfectly fine to use the Terminal to do up your chats.
 
-![[Pasted image 20260212113048.png]]
+![[Pasted-image 20260212113048.png]]
 
 Another part of Claude Code that I just learnt about was Skills, which are meant to replace agents as shared by Barry Zhang and Mahesh Murag from Anthropic.
 
@@ -257,7 +257,7 @@ Another part of Claude Code that I just learnt about was Skills, which are meant
 
 I've been building out Skills to automate the boring tasks that take me ages to complete, and all I need is to invoke a slash command (inspired by Teresa Torres' /today command).
 
-![[Pasted image 20260211163044.png]]
+![[Pasted-image 20260211163044.png]]
 
 *Claude Skills have not been invoked reliably by using natural language, so I decided to configure them as slash commands instead (which are more reliable).*
 
@@ -270,7 +270,7 @@ I'll be sharing how I built out these skills in another post, but I feel it's wo
 ## How I built out the system
 I had a lot of files that I (thankfully) compiled in Notion, which gave me a good head start on building out my brain.
 
-![[Pasted image 20260212113733.png]]
+![[Pasted-image 20260212113733.png]]
 
 This could be a tedious portion of it, depending on where you store all of your documents. 
 
@@ -284,11 +284,11 @@ So I created a GitHub repo to store all 5,050+ (and counting) files that I gathe
 - Tasks: The working layer, articles are my busiest where I go through the entire flow from idea → outlining → writing → done, before moving over to the Content Archive (sort of my mini Kanban)
 - Writing: A .md tracker of all the tasks that I'm doing
 
-![[Pasted image 20260211163654.png]]
+![[Pasted-image 20260211163654.png]]
 
 The key file inside this repo is the brain_index.md file, which routes queries to the appropriate context.
 
-![[Pasted image 20260211164641.png]]
+![[Pasted-image 20260211164641.png]]
 
 This helps to save tokens, and there's likely not one perfect system. I built mine out through trial and error, where if the output is not what I'd expect:
 
@@ -301,11 +301,11 @@ I try to load up as much information in the Context and Content_Archive folders,
 An example of context was how I built out libraries that included all of the transcripts and newsletters by the thought leaders and other creators that I follow.
 
 
-![[Pasted image 20260211164933.png]]
+![[Pasted-image 20260211164933.png]]
 
 At any time, I could ask Claude about how Alex Hormozi teaches me how to create an offer, and Claude will look inside that file.
 
-![[Pasted image 20260211165455.png]]
+![[Pasted-image 20260211165455.png]]
 
 I've also built out multiple workflows to complete certain tasks that I hate doing.
 
@@ -328,11 +328,11 @@ Now, I've built a youtube-learnings skill that does both:
 
 All I need is to type this command,
 
-![[Pasted image 20260211170102.png]]
+![[Pasted-image 20260211170102.png]]
 
 and a transcript and summary will be generated in the appropriate folder, which I could query at any time.
 
-![[Pasted image 20260211174604.png]]
+![[Pasted-image 20260211174604.png]]
 
 *A huge amount of time is saved doing the same repetitive tasks over and over again.*
 
@@ -429,7 +429,7 @@ Instead, I should have done this:
 - Break down each monolithic skill into atomic components
 - Create orchestrator skills that use each Atomic Skill to create a workflow
 
-![[Pasted image 20260211170406.png]]
+![[Pasted-image 20260211170406.png]]
 
 I first saw the term orchestrator skill in @dabit3's post below, which I find it extremely applicable in this context.
 
@@ -450,7 +450,7 @@ So I've learnt when writing a skill for Claude, I would think through if it's an
 
 If it's an orchestrator, I have to break it apart into the atomic skills, so that I can plug and play them when they're required in future workflows that I want to build.
 
-![[Pasted image 20260212101735.png]]
+![[Pasted-image 20260212101735.png]]
 
 ---
 
@@ -464,17 +464,17 @@ Because AI has enough relevant context about you, it is able to decipher what yo
 
 Here's an example of how I brain-dumped certain ideas after a shower,
 
-![[Pasted image 20260211145531.png]]
+![[Pasted-image 20260211145531.png]]
 
 and this was the result.
 
-![[Pasted image 20260211150101.png]]
+![[Pasted-image 20260211150101.png]]
 
 *Not the most perfect of examples since it failed to understand what I was trying to say.*
 
 But even then, it's a good sign to refine my skill.md so that I don't have to teach it again in future.
 
-![[Pasted image 20260211150305.png]]
+![[Pasted-image 20260211150305.png]]
 
 The system won't be perfect right from the start. Even when you give as much context as possible to the AI, I doubt that you can one-shot your Digital Brain.
 
@@ -484,7 +484,7 @@ If it's not up to standard, let Claude know what worked and what didn't.
 
 Based on your feedback, it will adapt and change the Skill.md file so that it works more effectively.
 
-![[Pasted image 20260212103821.png]]
+![[Pasted-image 20260212103821.png]]
 
 ---
 
@@ -492,7 +492,7 @@ Based on your feedback, it will adapt and change the Skill.md file so that it wo
 
 In just 8 days and barely any coding experience, I've built out a system that runs almost all of my life.
 
-![[Pasted image 20260213165630.png]]
+![[Pasted-image 20260213165630.png]]
 
 I'm basically stuck in either VS Code or Obsidian to improve the file structure or write articles, respectively.
 
