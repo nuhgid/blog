@@ -1,8 +1,7 @@
 ---
 title: "Video 1: My introduction - why I'm building in public now"
 account: nuhgid
-stage: done
-completed_date: 2026-02-20
+stage: writing
 created: 2026-02-15
 writing_started: 2026-02-17
 category: Identity_and_Transformation
@@ -14,7 +13,7 @@ voice_reference: "digital-brain/Context/Personal/nuhgid_branding/work_account_nu
 ---
 
 Finding my place in this new world
-# Starting from zero again
+# Starting from zero again (what a burnt-out marketer learned about AI in 2 weeks)
 
 We're living in scary yet exciting times, depending on who you listen to. Some are proclaiming it's the end of the world, with AI taking over all our jobs, and we'll become just like the humans we see in Wall-E.
 
@@ -88,13 +87,15 @@ My journey has been shaped through multiple failures across different stages of 
 
 ---
 
-- Using the wrong approach to study Pharmacy
+- *Using the wrong approach to study Pharmacy*
 
 The only goal I had in university was good grades. I sacrificed everything else, just to have more time to study.
 
 But I was studying Pharmacy in the completely wrong way.
 
-I was too focused on rote memorisation, remembering every dosage or side effect of each medicine. I drew out elaborate mind maps based on lecture notes to help me locate the information that I needed for the test.
+I was too focused on rote memorisation, remembering every dosage or side effect of each medicine. I drew out elaborate mind maps and tables based on lecture notes to help me locate the information that I needed for the test.
+
+![[Pasted image 20260220101651.png]]
 
 I crammed my brain with all of these facts without bothering to link the concepts with each other.
 
@@ -116,7 +117,7 @@ But COVID was another big turning point as it gave me the opportunity to explore
 
 ---
 
-- Losing out to AI when creating SEO content
+- *Losing out to AI when creating SEO content*
 
 COVID was a great reset for me in my 3rd and 4th year of Pharmacy, because most lectures and assessments became purely online.
 
@@ -138,7 +139,7 @@ I learnt about identifying underserved search terms through auto-complete and re
 
 And for a while, I had great results, even reaching 1 million views (especially when crypto started becoming popular).
 
-/UPDATE WITH SS
+![[Pasted image 20260220100835.png]]
 
 But other sites started to catch on, and they competed with me for some of the search terms that I ranked for.
 
@@ -160,7 +161,7 @@ So I decided to go down another route in a bid to stand out:
 
 ---
 
-- Building my personal account to 1,000 followers
+- *Building my personal account to 1,000 followers*
 
 I made the decision to start this account given the shift towards personal accounts, away from brand accounts.
 
@@ -174,7 +175,7 @@ I thought that followers and appealing to the 'right' audience were the right wa
 
 I obsessed over follower counts and constantly celebrated them, when I should have followed @emilios_eth's advice on completely ignoring these milestones.
 
-/ADD EMILIOS
+https://x.com/emilios_eth/status/1984209405215125650
 
 Once again, I burnt out because my account became more of a performance that others (and even myself) were slowly losing interest in.
 
@@ -182,7 +183,7 @@ And it didn't help that I faced another problem at work
 
 ---
 
-- Struggling with integrating AI into my workflows
+- *Struggling with integrating AI into my workflows*
 
 Automata shifted towards an AI-first company, where everything that can be done with AI, should be done with AI.
 
@@ -192,9 +193,11 @@ I was frustrated after having to paste the same context file that I had into the
 
 When vibe coding became more popular, we were asked to build cool websites that could showcase our products in an engaging way, and I struggled even more.
 
-My creative juices were constantly lacking and I just couldn't seem to generate any interesting ideas.
+My creative juices were constantly lacking, and I just couldn't seem to generate any interesting ideas.
 
 I did make some breakthroughs, but it didn't gain the traction I was hoping for.
+
+https://x.com/nuhgid/status/1994067825888252199
 
 At the same time, I was tasked with growing the @1rpc_ai brand by:
 
@@ -209,19 +212,19 @@ So I'm extremely grateful for this break that gave me more clarity:
 
 ---
 
-- Building my Digital Brain
+- *Building my Digital Brain*
 
 I count myself lucky because I've been away on hospitalisation leave for a month now. During this recovery phase, I saw how LLMs continue to improve their capabilities and become better with every update.
 
 But at the same time, I finally had the time to experiment. To fail without major repercussions to my work, and have the time to reflect and iterate.
 
-As I shared in the Digital Brain article, it all finally clicked after I watched 2 videos about using Claude Code for automations, even without having to code anything.
-
-/UPDATE LINK
+As I shared in my [Digital Brain article](https://nuhgid.substack.com/p/claude-automates-85-of-my-life-how), it all finally clicked after I watched 2 videos about using Claude Code for automations, even without having to code anything.
 
 Finally, on 5 Feb, I decided to take the plunge and start building out a system that automates my life.
 
 And in the past 2 weeks, I've been adding more features to this system in an attempt to outsource all the tasks I hated to Claude.
+
+https://x.com/nuhgid/status/2024355604933001446
 
 I would have never learned so effectively if I continued to sit and wait for the perfect course or prompt to drop into my lap.
 
@@ -260,6 +263,8 @@ Time is the only scarce resource that we can never earn back, and AI gives us th
 
 Don't feel inferior because what you build is not 'cool' or 'useful', but continue iterating and building a system that works for you.
 
+---
+
 ## Become irreplaceable in the age of AI
 
 As a marketer myself, I've seen countless opinions on how marketing would either thrive or die with AI.
@@ -297,155 +302,3 @@ https://nuhgid.substack.com/
 
 
 
-
-# End
-
-
-Who content is for
-- What you help with
-- Inject contrarian belief if possible
-- Set trajectory for the relationship with audience
-
-I've struggled with being a TEE account. I was writing about TEEs, but it didn't excite me because I wasn't building anything.
-
-All I did was to summarise the learnings from panels or podcasts I watched.
-
-But I soon realised that 
-
-And all the learnings about 
-
-Being lost after severely burning out and totally losing the motivation
-
-What triggered this decision?
-Hospitalisation
-
-Reading more from Caleb Ralston
-
-# Video 1: My introduction - why I'm building in public now
-
-## Core Idea
-
-First video in Caleb Ralston's "First 3 Videos" framework - an introduction video that establishes who I am, why I'm creating content now, and what audience can expect going forward.
-
-## Caleb Ralston Framework: Video 1 (Introduction)
-
-### Purpose
-Establish who you are and why audience should care; set expectations for future content; pair your story with lessons for audience benefit.
-
-### Structure
-
-**1. Why are you making content now? Why this purpose? Why now?** (Frame-setting)
-- What triggered the decision to build in public
-- Why this specific moment in your journey
-- What changed that made you ready to share
-
-**2. 3-5 pivotal career/life moments** (not a resume dump)
-- Turning points that shaped your thinking
-- Critical decisions or experiences
-- Moments where everything changed perspective
-
-**3. Pair each moment with one clear, valuable lesson**
-- Lesson must address viewer pain/goals/confusion/clarity-seeking
-- Make it actionable and immediately useful
-- Focus on audience benefit, not just your accomplishment
-
-**4. Close with what audience should expect**
-- Who content is for
-- What you help with
-- Inject contrarian belief if possible
-- Set trajectory for the relationship with audience
-
-### Key Distinction
-
-**This video is ABOUT you, but it is FOR your audience.**
-
-Lessons must speak to their needs, not just showcase your accomplishments. Not a brag reel or resume dump - it's pivotal moments paired with actionable lessons.
-
-### Example Pivotal Moments (Brainstorm)
-
-1. **Pharmacy career** → Realising 4 years of study led to replaceability
-   - Lesson: Specialisation without differentiation = commodity
-
-2. **Discovering Automata/Web3** → Moving from traditional pharma to crypto/tech
-   - Lesson: Career pivots require courage to start from zero
-
-3. **Struggling with AI workflows** → Everyone seemed expert overnight
-   - Lesson: Comparison paralysis prevents experimentation
-
-4. **Building digital-brain system** → Creating tools that compound knowledge
-   - Lesson: Systems > heroic effort for sustainable productivity
-
-5. **Decision to build in public** → Overcoming fear of looking stupid
-   - Lesson: Authenticity beats polish when building trust
-
-### Contrarian Belief to Inject
-
-"In the AI era, **judgment beats specialisation**. Technical skills become commodities - your irreplaceable value is in knowing which problems to solve and how to orchestrate tools to solve them."
-
-OR
-
-"Most people hide their learning journey until they're 'experts.' But **building in public accelerates learning** because accountability and feedback create faster iteration loops than private study ever could."
-
-## Brand Voice Reminder
-
-**nuhgid Voice:**
-- **Tone:** Authentic over polished. Conversational over formal.
-- **Positioning:** Human voice for work content (not corporate)
-- **Approach:** Personal insights, behind-the-scenes, learning journey
-- **Technical:** Depth with accessibility, no jargon walls
-- **Stakes:** Human stakes over corporate stakes
-- **Language:** British English (-ise, -our, -re)
-
-**Anti-AI Constraints:**
-- No "isn't X, it's Y" patterns
-- No fake enthusiasm or superlatives
-- No generic inspiration ("game-changing", "revolutionary")
-- Write like you talk to a peer, not like a motivational poster
-
-## Related Published Articles
-
-**These published articles connect with your idea:**
-
-1. **[The Irreplaceable Manifesto](digital-brain/Content_Archive/nuhgid/articles/20260210_The_Irreplaceable_Manifesto/20260210_The_Irreplaceable_Manifesto.md)** - Published 2026-02-10
-   - Connection: Both explore identity and positioning in the AI era. This introduction video sets up WHY you're sharing your journey; the manifesto delivers the WHAT (four-layer framework for irreplaceability)
-
-## Thinking Questions
-
-**Before outlining, consider:**
-
-1. **Clarity:** What's the single sentence that captures why you're building in public NOW (not 6 months ago, not 6 months from now)?
-
-2. **Differentiation:** What makes your learning journey different from the thousand other "I'm learning AI" accounts?
-
-3. **Audience:** Who specifically needs to hear "it's okay to start from zero even when everyone seems expert"?
-
-4. **Voice:** Does this feel like nuhgid (authentic, conversational, human stakes) or generic LinkedIn inspiration?
-
-5. **Value:** If someone watches this introduction, what specific mindset shift or actionable insight do they walk away with?
-
-6. **Pivotal Moments:** Which 3-5 moments genuinely changed your trajectory (not just resume bullet points)?
-
-7. **Lessons:** For each moment, what's the ONE lesson that would have changed everything if you'd learned it earlier?
-
-8. **Credibility:** What have you actually built/done that gives you permission to teach these lessons?
-
-9. **Authenticity Test:** Would you send this video to someone whose opinion you deeply respect, or would you be embarrassed?
-
-10. **Stakes:** Why does this matter to YOU personally, beyond career/business outcomes?
-
-## Next Steps
-
-- Brainstorm your actual 3-5 pivotal moments with real specificity
-- For each moment, identify the valuable lesson for audience
-- Clarify your contrarian belief (what do you genuinely believe that most in your space disagree with?)
-- Draft the "why now" answer (what changed that made this the right time?)
-- Move to outlining using `/article-outline` when ready to structure
-- Consider filming format (talking head, b-roll, scripted vs casual)
-
-## Notes
-
-- This is VIDEO content, not article - script for camera, not written piece
-- Caleb's example: His introduction established credibility through pivotal moments while immediately injecting "optimize for trust, not virality" belief
-- Length doesn't matter as much as maintaining high value per minute
-- The goal: after watching, viewer should understand who you are, why they should care, and what to expect from future content
-- Remember: introduction establishes foundation for all future videos
